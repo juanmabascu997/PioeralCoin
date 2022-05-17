@@ -1,0 +1,35 @@
+#Nav{
+    background: rgb(44, 44, 44);
+}
+
+#icon{
+    height: 60px;
+    width: 60px;
+}
+
+#brand{
+    margin-left: -189px;
+    color: #D9CFC3;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #D9CFC3;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+}
+.me-auto {
+    margin-left: 300px;
+}
+
+.nav-link{
+    color: #D9CFC3;
+
+}

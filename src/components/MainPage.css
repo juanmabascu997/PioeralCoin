@@ -1,0 +1,117 @@
+#maintitles{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    margin-left: 425px;
+}
+
+h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 128px;
+    line-height: 85%;
+    letter-spacing: -0.085em;
+    color: #D9CFC3;
+}
+p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 85%;
+
+    letter-spacing: -0.085em;
+
+    color: #D9CFC3;
+}  
+
+#mainboxs{
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+    margin-left: 285px;
+    width: 229px;
+    height: 187px; 
+}
+#mainboxs div{
+    margin: 9px;
+    padding: 30px;
+    padding-top: 50px;
+
+    border-radius: 7px; 
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+#mainboxs h2{
+    font-weight: 500;
+    font-size: 80px;
+    line-height: 85%;    
+    letter-spacing: -0.03em;
+    color: #000000;
+}
+#mainboxs p{
+    color: #757575;
+}
+#piocoin{
+    background: #F6D756;
+}
+#volume {
+    background: #F6D756;
+}
+#supply{
+    background: #F6D756;
+}
+#maketcap{
+    background: #F6D756;
+}
+
+#sections{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin-left: 245px;
+    width: 1212px;
+    height: 235px;
+    border: 1px solid #494949;
+    border-radius: 32px;
+}
+.btn{
+    margin-left: 50px;
+    background-color: #F6D756;
+    border-color: #F6D756;
+    color: #000000;
+    transition: all 300ms;
+}
+.btn-primary:hover {
+    background-color: #757575;
+    border-color: #757575;
+    color: #000000;
+}
+.btn-primary:active{
+    background-color: #F6D756;
+    border-color: #F6D756;
+    color: #000000;
+}
+.btn-check:focus+.btn-primary, .btn-primary:focus {
+    background-color: #F6D756;
+    border-color: #F6D756;
+    color: #000000;
+    box-shadow: 0 0 0 0.25rem #F6D756;
+}
+#forms{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.form-control{
+    width: 483px;
+    height: 66px;
+    background: #1A1A1A;
+    border: 1px solid #494949;
+    border-radius: 4px;
+    margin: 40px;
+
+}
