@@ -1,7 +1,7 @@
 #maintitles{
     display: flex;
     flex-direction: column;
-    margin-top: 15px;
+    margin-top: 55px;
     margin-left: 425px;
 }
 
@@ -55,17 +55,18 @@ p{
     color: #757575;
 }
 #piocoin{
-    background: #F6D756;
+    background: rgb(255,229,122);
+background: radial-gradient(circle, rgba(255,229,122,1) 0%, rgba(246,215,86,1) 90%, rgba(255,229,122,1) 100%);
 }
 #volume {
-    background: #F6D756;
-}
+    background: rgb(255,229,122);
+    background: radial-gradient(circle, rgba(255,229,122,1) 0%, rgba(246,215,86,1) 90%, rgba(255,229,122,1) 100%);}
 #supply{
-    background: #F6D756;
-}
+    background: rgb(255,229,122);
+background: radial-gradient(circle, rgba(255,229,122,1) 0%, rgba(246,215,86,1) 90%, rgba(255,229,122,1) 100%);}
 #maketcap{
-    background: #F6D756;
-}
+    background: rgb(255,229,122);
+    background: radial-gradient(circle, rgba(255,229,122,1) 0%, rgba(246,215,86,1) 90%, rgba(255,229,122,1) 100%);}
 
 #sections{
     display: flex;
@@ -115,3 +116,11 @@ p{
     margin: 40px;
 
 }
+
+svg {
+    margin-top: 55px;
+    vertical-align: center;
+    height: 2em;
+    width: 2em;
+}
+

@@ -9,3 +9,28 @@
 .custom-btn-toolbar > .btn {
   margin-right: 1rem;
 }
+
+.scroller{
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+}
+
+/* .scroller::-webkit-scrollbar {
+  width: 10px;
+} */
+
+/* Track */
+/* .scroller::-webkit-scrollbar-track {
+  background: #272727;
+} */
+
+/* Handle */
+/* .scroller::-webkit-scrollbar-thumb {
+  background: #f5df5e;
+  border-radius: 10px;
+} */
+
+/* Handle on hover */
+/* .scroller::-webkit-scrollbar-thumb:hover {
+  background: #fcb239;
+} */

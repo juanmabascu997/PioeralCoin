@@ -1,14 +1,16 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import icon from '../img/icon.png'
+import icon from '../../img/icon.png'
 import {Navbar, Button} from 'react-bootstrap'
 import Nav from 'react-bootstrap/Nav'
 import Container from 'react-bootstrap/Container'
+import styled from 'styled-components'
+
 import './Nav.css'
 
 const NavBars = ()=>{
   return <>
-    <Navbar id='Nav'>
+    <Navbar fixed="top" id='Nav'>
       <Container>
       <Navbar.Brand href="#home" id='brand'><img src={icon} id='icon'/> Pioeral</Navbar.Brand>
       
@@ -26,3 +28,7 @@ const NavBars = ()=>{
 }
 
 export default NavBars
+
+// const Nav = styled.nav`
+
+// `

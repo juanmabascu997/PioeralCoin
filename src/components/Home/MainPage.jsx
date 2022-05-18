@@ -1,9 +1,12 @@
 import {Button, Form, FormControl} from 'react-bootstrap'
 import React from 'react';
 import './MainPage.css'
+import { BsFillArrowRightCircleFill } from 'react-icons/bs';
+import styled from 'styled-components'
+
 
 const MainPage = ()=>{
-  return <div>
+  return <Container>
         <div id='maintitles'>
             <h1>   Descentralized for a better tomorrow</h1>
             <p>Change your way in see the market</p>
@@ -28,21 +31,28 @@ const MainPage = ()=>{
         </div>
         <div id='sections'>
             <section><Button>Swap tokens</Button><Button>Buy with credit card</Button></section>
-
                 <Form id='forms'>
                     <FormControl
-                    type="search"
-                    placeholder="Search"
+                    type='number'
+                    placeholder="ETH"
                     aria-label="Search"
                     />
+                    <BsFillArrowRightCircleFill color='#D9CFC3'/>
                     <FormControl
-                    type="search"
-                    placeholder="Search"
+                    type='number'
+                    placeholder="PIO"
                     aria-label="Search"
                     />
                 </Form>          
         </div>
-  </div>
+  </Container>
 }
 
 export default MainPage;
+
+const Container = styled.div`
+    width: 100%;
+    height: 100%;
+    scroll-snap-align: end;
+
+`
