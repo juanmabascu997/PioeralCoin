@@ -8,12 +8,12 @@ import './App.css';
 
 const App = ()=>{
   return <>
-      <NavBars/>
-      <div className="scroller">
+    <NavBars/>
+    <div className="scroller">
         <MainPage/>
         <BuyCoin/>
         <About/>
-      </div>
+    </div>
   </>
 }
 

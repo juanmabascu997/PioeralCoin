@@ -20,4 +20,5 @@ const Container = styled.div`
     text-align: center;
     justify-content: center;
     scroll-snap-align: start;
+
 `

@@ -19,6 +19,6 @@ const Container = styled.div`
     flex-direction: column;
     text-align: center;
     justify-content: center;
-    scroll-snap-align: start;
+    scroll-stop-align: start;
 
 `

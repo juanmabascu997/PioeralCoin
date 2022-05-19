@@ -11,22 +11,8 @@
 }
 
 
-/* .scroller::-webkit-scrollbar {
-  width: 10px;
-} */
+.scroller{
+  scroll-snap-type: y mandatory;
+  overflow-y: hidden;
+}
 
-/* Track */
-/* .scroller::-webkit-scrollbar-track {
-  background: #272727;
-} */
-
-/* Handle */
-/* .scroller::-webkit-scrollbar-thumb {
-  background: #f5df5e;
-  border-radius: 10px;
-} */
-
-/* Handle on hover */
-/* .scroller::-webkit-scrollbar-thumb:hover {
-  background: #fcb239;
-} */
