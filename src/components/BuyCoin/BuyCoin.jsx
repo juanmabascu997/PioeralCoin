@@ -5,7 +5,7 @@ import styled from 'styled-components'
 const BuyCoin = ()=>{
 
     return <Container>
-        <p>Buy a coin</p>
+        <h1>Buy a coin</h1>
     </Container>
 }
 
@@ -19,6 +19,6 @@ const Container = styled.div`
     flex-direction: column;
     text-align: center;
     justify-content: center;
-    scroll-snap-align: end;
+    scroll-snap-align: start;
 
 `

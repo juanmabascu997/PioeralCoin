@@ -5,7 +5,7 @@ import styled from 'styled-components'
 const About = ()=>{
 
     return <Container>
-        <p>About coin</p>
+        <h1>About coin</h1>
     </Container>
 }
 
@@ -19,6 +19,5 @@ const Container = styled.div`
     flex-direction: column;
     text-align: center;
     justify-content: center;
-    scroll-snap-align: end;
-
+    scroll-snap-align: start;
 `
