@@ -16,8 +16,8 @@ const NavBars = ()=>{
       
       <Nav className="me-auto ml-2">
         <Nav.Link href="#home">Home</Nav.Link>
-        <Nav.Link href="#features">Buy Coin</Nav.Link>
-        <Nav.Link href="#pricing">About Coin</Nav.Link>
+        <Nav.Link href="#buy">Buy Coin</Nav.Link>
+        <Nav.Link href="#about">About Coin</Nav.Link>
       </Nav>
       <Nav.Link href='#login'>Login</Nav.Link>
       <Button href='#signup'>Sign up</Button>
