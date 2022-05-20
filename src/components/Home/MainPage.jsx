@@ -3,10 +3,14 @@ import React from 'react';
 import './MainPage.css'
 import { BsFillArrowRightCircleFill } from 'react-icons/bs';
 import styled from 'styled-components'
+import NavBars from '../Nav/Nav';
+import BuyCoin from '../BuyCoin/BuyCoin';
+import About from '../About/About';
 
 
 const MainPage = ()=>{
-  return <Container>
+  return <Container id='main'>
+        <NavBars></NavBars>
         <div id='maintitles'>
             <h1>   Descentralized for a better tomorrow</h1>
             <p>Change your way in see the market</p>
@@ -45,6 +49,8 @@ const MainPage = ()=>{
                     />
                 </Form>          
         </div>
+        <BuyCoin></BuyCoin>
+        <About></About>
   </Container>
 }
 

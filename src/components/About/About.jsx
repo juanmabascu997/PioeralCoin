@@ -4,7 +4,7 @@ import styled from 'styled-components'
 
 const About = ()=>{
 
-    return <Container>
+    return <Container id='about'>
         <h1>About coin</h1>
         <div>
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has 

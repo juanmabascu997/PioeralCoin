@@ -4,7 +4,7 @@ import styled from 'styled-components'
 
 const BuyCoin = ()=>{
 
-    return <Container>
+    return <Container id='buy'>
         <h1>Buy a coin </h1>
         <div>
             <hr></hr>

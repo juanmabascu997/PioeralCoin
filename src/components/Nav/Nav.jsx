@@ -12,15 +12,15 @@ const NavBars = ()=>{
   return <>
     <Navbar fixed="top" id='Nav'>
       <Container>
-      <Navbar.Brand href="#home" id='brand'><img src={icon} id='icon'/> Pioeral</Navbar.Brand>
+      <Navbar.Brand href="#main" id='brand'><img src={icon} id='icon'/> Pioeral</Navbar.Brand>
       
       <Nav className="me-auto ml-2">
-        <Nav.Link href="#home">Home</Nav.Link>
+        <Nav.Link href="#main">Home</Nav.Link>
         <Nav.Link href="#buy">Buy Coin</Nav.Link>
         <Nav.Link href="#about">About Coin</Nav.Link>
       </Nav>
       <Nav.Link href='#login'>Login</Nav.Link>
-      <Button href='#signup'>Sign up</Button>
+      <Button href='/wallet'>Sign up</Button>
       </Container>
     </Navbar>
     <br />
